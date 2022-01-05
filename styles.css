@@ -1,35 +1,118 @@
 body {
-  background-color: antiquewhite;
-}
-
-h1 {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: rgb(250, 249, 249);
 }
 
 header {
+  position: relative;
+  left: 10%;
+  width: 80%;
   display: flex;
   justify-content: space-around;
+  margin-top: 20px;
+  height: 50px;
+  margin-bottom: 50px;
 }
 
-#pages {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: medium;
-  color: gray;
-}
-
-a {
-  text-decoration: none;
-}
-
-a:link, a:visited {
-  background-color: #f44336;
+.pages:link, .pages:visited {
+  background-color: lightgray;
   color: white;
   padding: 14px 25px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  border-radius: 10%;
 }
 
-a:hover, a:active {
-  background-color: red;
+.pages:hover, .pages:active {
+  background-color: lightblue;
 }
+
+.current {
+  height: 20px;
+  background-color: lightgray;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 10%;
+}
+
+/* .current:hover, .current:active {
+  background-color: lightblue;
+} */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Merriweather', serif;
+  margin-left: 150px;
+}
+p, div {
+  font-family: 'Nobile', Helvetica, Arial, sans-serif;
+}
+
+.aboutMe {
+  margin-left: 150px;
+  margin-right: 150px;
+  font-size: large;
+  line-height: 200%;
+  text-indent: 10%;
+}
+
+.projectParagraph {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 1px;
+  font-size: large;
+  line-height: 200%;
+  text-indent: 10%;
+}
+
+#about {
+  font-size: x-large;
+  line-height: 200%;
+  position: relative;
+}
+
+body {
+  background: url(/img/greek-vase.png);
+}
+
+.box {
+  background-color: rgb(254, 254, 253);
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-shadow: 0 0 1em 1em rgb(215, 215, 215);
+  margin-top: 70px; 
+}
+
+#myChangePhoto {
+  border-width: 1px;
+  width: 75vw;
+}
+
+#me {
+  position: relative;
+  top: 95px;
+  left: 20px;
+  border-radius: 100%;
+  height: 100px;
+  width: 100px;
+}
+
+#me:hover {
+  height: 400px;
+  width: 400px
+}
+
+/* h1 { 
+  text-shadow: 1px 1px 1px #ccc;
+} */
+
+h1 {
+width: 50vw;
+}
+

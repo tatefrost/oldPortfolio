@@ -6,35 +6,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tate's Projects</title>
   <link rel="stylesheet" href="styles.css">
+  <link href="http://fonts.googleapis.com/css?family=Corben:bold" rel="stylesheet" type="text/css">
+ <link href="http://fonts.googleapis.com/css?family=Nobile" rel="stylesheet" type="text/css">
+ <link href="http://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet" type="text/css">
 </head>
 <body>
   <header>
-    <a href="index.html">About me</a>
-    <p>Projects</p>
-    <a href="skills.html">Skills</a>
-    <a href="contact.html">Contact</a>
+    <a class="pages" href="index.html">About me</a>
+    <a class="pages" href="skills.html">Skills</a>
+    <p class="current">Projects</p>
+    <a class="pages" href="contact.html">Contact</a>
   </header>
   <h1>My projects</h1>
-
-  <section id="myChange">
-    <h3 class="projectNames">My ₵hange</h3>
-    <img id="myChangePhoto" src="https://github.com/tatefrost/my-change-image/blob/main/my-change-photo.png" alt="My ₵hange image">
-    <p>My ₵hange is a web application created with vanilla JavaScript to allow users to track and alter financial gains and loses across an unlimited amount of budgets and categories.
-
-      It was designed with the goal in mind being an application that a user could interact with effortlessly and effectively while also providing the ability to create and track multiple budgets at one time unlike many popular budgeting services.
-      
-      Provided are the abilities to display all saved budgets within the server, to add new budgets, to edit dollar amounts of budget totals and category totals, and to delete budgets.</p>
-    <h3>technologies used</h3>
-    <ul>
-      <li>HTML5</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-      <li>Express</li>
-      <li>SQL</li>
-      <li>Python</li>
-    </ul>
-    <a href="https://github.com/tatefrost/capstone.git">My change Github repository</a><br>
-    <a href="https://drive.google.com/file/d/1488RqE4TonEw0eObpXwCSvaKB1wDALFm/view?usp=sharing">My change video demo</a>
-  </section>
+  <div class="box">
+      <h3 class="projectNames">My ₵hange</h3>
+      <img id="myChangePhoto" src="img/my-change-photo.png" alt="My ₵hange image">
+      <p class="projectParagraph">My ₵hange is a web application created with vanilla JavaScript to allow users to track and alter financial gains and loses across an unlimited amount of budgets and categories.
+  
+        It was designed with the goal in mind being an application that a user could interact with effortlessly and effectively while also providing the ability to create and track multiple budgets at one time unlike many popular budgeting services.
+        
+        Provided are the abilities to display all saved budgets within the server, to add new budgets, to edit dollar amounts of budget totals and category totals, and to delete budgets.</p>
+      <h3>technologies used</h3>
+      <ul>
+        <li>HTML5</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Express</li>
+        <li>Axios</li>
+      </ul>
+      <a href="https://github.com/tatefrost/capstone.git" target="_blank">My change Github repository</a>
+      <br><br>
+      <a href="https://drive.google.com/file/d/1488RqE4TonEw0eObpXwCSvaKB1wDALFm/view?usp=sharing" target="_blank">My change video demo</a>
+  </div>
 </body>
 </html>
