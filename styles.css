@@ -108,8 +108,7 @@ body {
 #me:hover {
   height: 200px;
   width: 200px;
-  transition:width 1s ease-in-out;
-  transition:height 1s ease-in-out;
+  transition:width 1s ease-in-out, height 1s ease-in-out;
 }
 
 
@@ -125,7 +124,18 @@ width: 100px;
 
 #languages {
   display: flex;
+  flex-direction: column;
+}
+
+#langPics {
+  display: flex;
+  justify-content: space-between;
+}
+
+#langNames {
+  display: flex;
   justify-content: space-around;
+
 }
 
 #howdy {
