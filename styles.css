@@ -25,6 +25,7 @@ header {
 
 .pages:hover, .pages:active {
   background-color: lightblue;
+  transition: background-color 0.5s ease;
 }
 
 .current {
@@ -38,9 +39,10 @@ header {
   border-radius: 10%;
 }
 
-/* .current:hover, .current:active {
-  background-color: lightblue;
-} */
+.current:hover, .current:active {
+  background-color: lightsteelblue;
+  transition: background-color 0.5s ease;
+}
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Merriweather', serif;
@@ -97,22 +99,36 @@ body {
 #me {
   position: relative;
   top: 95px;
-  left: 20px;
+  left: 70px;
   border-radius: 100%;
   height: 100px;
   width: 100px;
 }
 
 #me:hover {
-  height: 400px;
-  width: 400px
+  height: 200px;
+  width: 200px;
+  transition:width 1s ease-in-out;
+  transition:height 1s ease-in-out;
 }
 
-/* h1 { 
-  text-shadow: 1px 1px 1px #ccc;
-} */
 
 h1 {
+text-shadow: 1px 1px 1px #ccc;
 width: 50vw;
 }
 
+.lang {
+height:100px;
+width: 100px;
+}
+
+#languages {
+  display: flex;
+  justify-content: space-around;
+}
+
+#howdy {
+  position: relative;
+  left: 50px;
+}
