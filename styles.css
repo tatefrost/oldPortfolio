@@ -281,3 +281,7 @@ border-color: #FF8D8D;
   position: relative;
   top: 90px;
 }
+
+#Email {
+  font-size: large;
+}
