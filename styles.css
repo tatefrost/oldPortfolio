@@ -178,7 +178,20 @@ width: 100px;
   margin: 0 auto;   
   letter-spacing: .4rem;   
   animation: demo-typewriter 3s steps(30, end), demo-cursor 1s step-end infinite;
+  quotes: "“" "”" "‘" "’";
 }
+
+#howdy::before {
+  content: open-quote;
+  font-size: x-large;
+  color:rgba(230, 15, 15, 0.5);
+}
+#howdy::after {
+  content: close-quote;
+  font-size: x-large;
+  color:rgba(230, 15, 15, 0.5)
+}
+
 @keyframes demo-typewriter {
   from { 
     width: 0;
