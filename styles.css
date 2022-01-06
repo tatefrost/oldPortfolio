@@ -7,9 +7,10 @@ body {
 header {
   position: relative;
   left: 10%;
+  top: 40px;
   width: 80%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-top: 20px;
   height: 50px;
   margin-bottom: 50px;
@@ -58,6 +59,7 @@ header {
 h1, h2, h3, h5, h6 {
   font-family: 'Merriweather', serif;
   margin-left: 150px;
+  margin-top: 100px;
 }
 
 h3 {
@@ -120,11 +122,12 @@ body {
 
 #me {
   position: relative;
-  top: 95px;
-  left: 70px;
+  top: 120px;
+  left: 175px;
   border-radius: 100%;
   height: 100px;
   width: 100px;
+  margin-bottom: 50px;
 }
 
 #me:hover {
@@ -162,7 +165,33 @@ width: 100px;
 
 #howdy {
   position: relative;
-  left: 50px;
+  font-size: x-large;
+  left: 320px;
+  font-family: 'Merriweather', serif;
+  color: #262626;
+  overflow: hidden;   
+  border-right: .10em solid #FF8D8D;
+  white-space: nowrap;   
+  margin: 0 auto;   
+  letter-spacing: .4rem;   
+  animation: demo-typewriter 3s steps(30, end), demo-cursor 1s step-end infinite;
+}
+@keyframes demo-typewriter {
+  from { 
+    width: 0;
+  }
+  to { 
+    width: 100%;
+  }
+}
+
+@keyframes demo-cursor {
+  from, to { 
+    border-color: transparent; 
+}
+  50% { 
+border-color: #FF8D8D; 
+  }
 }
 
 
@@ -209,4 +238,9 @@ width: 100px;
 
 #express {
   filter: drop-shadow(10px 10px 10px #01081a66);
+}
+
+#aboutbox {
+  position: relative;
+  top: 90px;
 }
