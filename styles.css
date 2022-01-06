@@ -1,7 +1,9 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: rgb(250, 249, 249);
-  overflow-y: scroll;
-  scroll-behavior: smooth;
 }
 
 header {
@@ -46,6 +48,24 @@ header {
 }
 
 .current:hover, .current:active {
+  cursor: pointer;
+  background-color: lightsteelblue;
+  transition: background-color 0.5s ease;
+}
+
+#current {
+  height: 20px;
+  background-color: lightgray;
+  color: rgb(245, 245, 245);
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 10%;
+  box-shadow: 0 0 5px rgba(167, 167, 167, 0.5);
+}
+
+#current:hover, #current:active {
   cursor: pointer;
   background-color: lightsteelblue;
   transition: background-color 0.5s ease;
@@ -179,6 +199,7 @@ width: 100px;
   letter-spacing: .4rem;   
   animation: demo-typewriter 3s steps(30, end), demo-cursor 1s step-end infinite;
   quotes: "“" "”" "‘" "’";
+  text-decoration: none;
 }
 
 #howdy::before {
