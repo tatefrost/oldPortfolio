@@ -79,7 +79,7 @@ header {
   color: purple;
 }
 
-h1, h2, h3, h5, h6 {
+/* h1, h2, h3, h5, h6 {
   font-family: 'Merriweather', serif;
   margin-left: 150px;
   margin-top: 100px;
@@ -95,6 +95,24 @@ h4 {
 
 p, div {
   font-family: 'Nobile', Helvetica, Arial, sans-serif;
+} */
+
+h1, h2, h3, h5, h6 {
+  font-family: Georgia, Times, serif;
+  margin-left: 150px;
+  margin-top: 100px;
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+h4 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+} 
+
+p, div {
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .aboutMe {
