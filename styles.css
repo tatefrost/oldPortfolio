@@ -44,10 +44,15 @@ header {
   transition: background-color 0.5s ease;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h5, h6 {
   font-family: 'Merriweather', serif;
   margin-left: 150px;
 }
+
+h4 {
+  font-family: 'Merriweather', serif;
+} 
+
 p, div {
   font-family: 'Nobile', Helvetica, Arial, sans-serif;
 }
@@ -139,6 +144,28 @@ width: 100px;
 }
 
 #howdy {
+  position: relative;
+  left: 50px;
+}
+
+
+#git, #linkedin {
+  width: 170px;
+  height: 100px;
+  padding: 15px;
+  position: relative;
+  left: 30px;
+}
+
+#linkedinlink, #gitlink{
+  padding: 10px;
+}
+
+#email {
+  margin-left: 50px;
+}
+
+#links {
   position: relative;
   left: 50px;
 }
