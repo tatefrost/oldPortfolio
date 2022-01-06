@@ -154,18 +154,22 @@ width: 100px;
   height: 100px;
   padding: 15px;
   position: relative;
-  left: 30px;
+  
 }
 
 #linkedinlink, #gitlink{
   padding: 10px;
 }
 
-#email {
-  margin-left: 50px;
+
+#motorcycle, #guitar {
+  height: 400px;
+  width: 600px;
+  box-shadow: 0 0 1em 1em rgb(230, 230, 230);
 }
 
-#links {
-  position: relative;
-  left: 50px;
+#mePics {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
 }
