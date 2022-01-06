@@ -1,5 +1,7 @@
 body {
   background-color: rgb(250, 249, 249);
+  overflow-y: scroll;
+  scroll-behavior: smooth;
 }
 
 header {
@@ -76,6 +78,7 @@ p, div {
   font-size: large;
   line-height: 200%;
   text-indent: 10%;
+  
 }
 
 .projectParagraph {
@@ -186,4 +189,24 @@ width: 100px;
   display: flex;
   justify-content: center;
   margin-top: 50px;
+}
+
+#html {
+  filter: drop-shadow(10px 10px 10px #ff837a);
+}
+
+#css {
+  filter: drop-shadow(10px 10px 10px #A4BBFF);
+}
+
+#javascript {
+  filter: drop-shadow(10px 10px 10px #e6e39aa1);
+} 
+
+#python {
+  filter: drop-shadow(10px 10px 10px #f0e09f93);
+}
+
+#express {
+  filter: drop-shadow(10px 10px 10px #01081a66);
 }
