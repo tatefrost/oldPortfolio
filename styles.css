@@ -18,16 +18,36 @@ header {
 
 .pages:link, .pages:visited {
   background-color: lightgray;
-  color: white;
+  color: rgb(247, 247, 247);
   padding: 14px 25px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   border-radius: 10%;
+  box-shadow: 0 0 5px rgba(186, 186, 186, 0.5);
 }
 
 .pages:hover, .pages:active {
   background-color: lightblue;
+  transition: background-color 0.5s ease;
+}
+
+
+.current {
+  height: 20px;
+  background-color: lightgray;
+  color: rgb(245, 245, 245);
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 10%;
+  box-shadow: 0 0 5px rgba(167, 167, 167, 0.5);
+}
+
+.current:hover, .current:active {
+  cursor: pointer;
+  background-color: lightsteelblue;
   transition: background-color 0.5s ease;
 }
 
@@ -37,23 +57,6 @@ header {
 
 #gitlink:visited, #linkedinlink:visited, #repo:visited, #demo:visited {
   color: purple;
-}
-
-.current {
-  height: 20px;
-  background-color: lightgray;
-  color: white;
-  padding: 14px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  border-radius: 10%;
-}
-
-.current:hover, .current:active {
-  cursor: pointer;
-  background-color: lightsteelblue;
-  transition: background-color 0.5s ease;
 }
 
 h1, h2, h3, h5, h6 {
