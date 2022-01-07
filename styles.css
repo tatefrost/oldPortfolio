@@ -79,24 +79,6 @@ header {
   color: purple;
 }
 
-/* h1, h2, h3, h5, h6 {
-  font-family: 'Merriweather', serif;
-  margin-left: 150px;
-  margin-top: 100px;
-}
-
-h3 {
-  text-decoration: underline;
-}
-
-h4 {
-  font-family: 'Merriweather', serif;
-} 
-
-p, div {
-  font-family: 'Nobile', Helvetica, Arial, sans-serif;
-} */
-
 h1, h2, h3, h5, h6 {
   font-family: Georgia, Times, serif;
   margin-left: 150px;
@@ -154,6 +136,11 @@ body {
   padding-right: 20px;
   box-shadow: 0 0 1em 1em rgb(215, 215, 215);
   margin-top: 70px; 
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  
 }
 
 #myChangePhoto {
