@@ -172,11 +172,6 @@ text-shadow: 1px 1px 1px #ccc;
 width: 50vw;
 }
 
-.lang {
-height:100px;
-width: 100px;
-}
-
 #languages {
   display: flex;
   flex-direction: column;
@@ -263,6 +258,11 @@ border-color: #FF8D8D;
   max-width: 95%;
   height: auto;
   box-shadow: 0 0 1em 1em rgb(230, 230, 230);
+}
+
+.lang {
+  max-width: 15%;
+  height: auto;
 }
 
 #mePics {
