@@ -148,7 +148,6 @@ body {
 
 #myChangePhoto {
   border-width: 1px;
-  width: 75vw;
 }
 
 #me {
@@ -254,8 +253,14 @@ border-color: #FF8D8D;
 }
 
 
-#motorcycle, #guitar {
+#motorcycle{
   max-width: 70%;
+  height: auto;
+  box-shadow: 0 0 1em 1em rgb(230, 230, 230);
+}
+
+#motorcycle{
+  max-width: 95%;
   height: auto;
   box-shadow: 0 0 1em 1em rgb(230, 230, 230);
 }
