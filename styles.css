@@ -144,6 +144,8 @@ body {
 
   margin: 10 auto;
   margin-bottom: 100px;
+
+  min-width: 300px;
 }
 
 #myChangePhoto {
