@@ -199,9 +199,9 @@ width: 50vw;
 #howdy {
   position: relative;
   top: 150px;
-  left: 12%;
+  left: 20%;
   font-size: x-large;
-  font-family: 'Merriweather', serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   color: #262626;
   overflow: hidden;   
   border-right: .10em solid #FF8D8D;
