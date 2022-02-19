@@ -73,11 +73,11 @@ header {
   transition: background-color 0.5s ease;
 }
 
-#gitlink:link, #linkedinlink:link, #repo:link, #demo:link {
+#gitlink:link, #linkedinlink:link, #repo:link, #demo:link, #resumelink:link {
   color: blue;
 }
 
-#gitlink:visited, #linkedinlink:visited, #repo:visited, #demo:visited {
+#gitlink:visited, #linkedinlink:visited, #repo:visited, #demo:visited, #resumelink:visited {
   color: purple;
 }
 
@@ -251,8 +251,9 @@ border-color: #FF8D8D;
   
 }
 
-#linkedinlink, #gitlink{
+#linkedinlink, #gitlink, #resumelink{
   padding: 10px;
+  overflow-wrap: break-word;
 }
 
 
