@@ -112,7 +112,7 @@ p, div {
 .aboutMe2 {
   margin-left: 30px;
   margin-right: 30px;
-  margin-top: 10px;
+  margin-top: -10px;
   font-size: large;
   line-height: 200%;
   text-indent: 10%;
