@@ -185,12 +185,12 @@ width: 50vw;
   flex-direction: column;
 }
 
-#langPics {
+#langPics, #langPics2 {
   display: flex;
   justify-content: space-between;
 }
 
-#langNames {
+#langNames, #langNames2 {
   display: flex;
   justify-content: space-around;
 
@@ -295,7 +295,15 @@ border-color: #FF8D8D;
   filter: drop-shadow(10px 10px 10px #f0e09f93);
 }
 
-#express {
+#flask {
+  filter: drop-shadow(10px 10px 10px #01081a66);
+}
+
+#postgresql{
+  filter: drop-shadow(10px 10px 10px #01081a66);
+}
+
+#sqlalchemy {
   filter: drop-shadow(10px 10px 10px #01081a66);
 }
 
