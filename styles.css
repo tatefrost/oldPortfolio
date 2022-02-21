@@ -22,7 +22,7 @@ header {
 }
 
 .pages:link, .pages:visited {
-  background-color: lightgray;
+  background-color: rgb(150, 150, 150);
   color: rgb(247, 247, 247);
   padding: 14px 25px;
   text-align: center;
@@ -40,7 +40,7 @@ header {
 
 .current {
   height: 20px;
-  background-color: lightgray;
+  background-color: rgb(167, 167, 167);
   color: rgb(245, 245, 245);
   padding: 14px 25px;
   text-align: center;
@@ -58,7 +58,7 @@ header {
 
 #current {
   height: 20px;
-  background-color: lightgray;
+  background-color: rgb(167, 167, 167);
   color: rgb(245, 245, 245);
   padding: 14px 25px;
   text-align: center;
