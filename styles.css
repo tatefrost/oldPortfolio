@@ -169,6 +169,13 @@ body {
   height: auto;
 }
 
+#stalkstarimg {
+  border-width: 1px;
+  max-width: 80%;
+  max-height: 40%;
+  margin-bottom: 5%;
+}
+
 #me {
   position: absolute;
   top: 35px;
@@ -325,4 +332,10 @@ border-color: #FF8D8D;
 #greeting {
   display: flex;
   justify-content: left;
+}
+
+#projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
