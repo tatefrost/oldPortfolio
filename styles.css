@@ -22,14 +22,14 @@ header {
 }
 
 .pages:link, .pages:visited {
-  background-color: rgb(150, 150, 150);
+  background-color: rgb(167, 167, 167);
   color: rgb(247, 247, 247);
   padding: 14px 25px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   border-radius: 10%;
-  box-shadow: 0 0 5px rgba(186, 186, 186, 0.5);
+  box-shadow: 0 0 5px rgba(184, 184, 184, 0.509);
 }
 
 .pages:hover, .pages:active {
@@ -84,7 +84,7 @@ header {
 
 h1, h2, h3, h5, h6 {
   font-family: Georgia, Times, serif;
-  margin-left: 100px;
+  margin-left: 15%;
   margin-top: 80px;
 }
 
@@ -338,4 +338,8 @@ border-color: #FF8D8D;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.projectNames {
+  margin-right: 15%;
 }
